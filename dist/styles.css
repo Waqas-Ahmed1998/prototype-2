@@ -513,8 +513,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
-.h-screen {
-  height: 100vh;
+.h-\[90vh\] {
+  height: 90vh;
 }
 
 .w-full {
@@ -811,12 +811,16 @@ font-family: 'Vazirmatn', sans-serif;*/
     width: 80%;
   }
 
-  .md\:max-w-\[1120px\] {
-    max-width: 1120px;
+  .md\:max-w-\[1140px\] {
+    max-width: 1140px;
   }
 
   .md\:max-w-\[30rem\] {
     max-width: 30rem;
+  }
+
+  .md\:max-w-\[1120px\] {
+    max-width: 1120px;
   }
 
   .md\:flex-row {
@@ -850,9 +854,9 @@ font-family: 'Vazirmatn', sans-serif;*/
     padding-bottom: 0px;
   }
 
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .md\:text-7xl {
@@ -860,9 +864,9 @@ font-family: 'Vazirmatn', sans-serif;*/
     line-height: 1;
   }
 
-  .md\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .md\:text-base {
