@@ -6,6 +6,10 @@
   .overlay {
     @apply after:absolute   after:top-0 after:left-0 after:w-full after:h-full after:bg-black/90
   }
+
+  .btn-config {
+    @apply  tw-items-center tw-py-1 tw-absolute tw-bottom-[100%]  tw-right-0 tw-text-white tw-bg-orange-300 tw-w-20 tw-flex tw-justify-end tw-px-2 tw-rounded-t-md
+  }
 }
 body {
   font-family: 'Source Sans Pro', sans-serif;
